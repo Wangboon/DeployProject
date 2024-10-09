@@ -15,7 +15,7 @@ jobs:
     - name: install package.json
       run: npm install
     
-    - name: Run Test1
+    - name: Run Test
       run: |
         output=$(node dist/Test.js)
         exit_code=$output
